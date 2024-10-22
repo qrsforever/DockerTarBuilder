@@ -34,4 +34,6 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/tensorflow/tensorflow:2.13.0-gpu docker://registry.cn-hangzhou.aliyuncs.com/erlangai/tensorflow:2.13.0-gpu
+        
+        skopeo copy docker://docker.io/nvidia/cuda:12.1.0-cudnn8-runtime-ubuntu22.04 docker://registry.cn-hangzhou.aliyuncs.com/erlangai/cuda:12.1.0-cudnn8-runtime-ubuntu22.04
+        # skopeo copy docker://docker.io/tensorflow/tensorflow:2.13.0-gpu docker://registry.cn-hangzhou.aliyuncs.com/erlangai/tensorflow:2.13.0-gpu
