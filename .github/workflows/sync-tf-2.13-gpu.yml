@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/tensorflow/tensorflow:2.17.0-gpu docker://registry.cn-hangzhou.aliyuncs.com/erlangai/tensorflow:2.17.0-gpu
+        skopeo copy docker://docker.io/tensorflow/tensorflow:2.14.0-gpu docker://registry.cn-hangzhou.aliyuncs.com/erlangai/tensorflow:2.14.0-gpu
