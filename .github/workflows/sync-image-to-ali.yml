@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/gocv/opencv:4.5.4 docker://registry.cn-hangzhou.aliyuncs.com/erlangai/opencv:4.5.4
+        skopeo copy docker://docker.io/bestwu/wechat docker://registry.cn-hangzhou.aliyuncs.com/erlangai/wechat
