@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/bestwu/wechat docker://registry.cn-hangzhou.aliyuncs.com/erlangai/wechat
+        skopeo copy docker://docker.io/ubuntu:22.04 docker://registry.cn-hangzhou.aliyuncs.com/erlangai/ubuntu:22.04
