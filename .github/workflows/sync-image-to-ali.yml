@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/bxggs/markserv:latest docker://registry.cn-hangzhou.aliyuncs.com/erlangai/bxggs-markserv:latest
+        skopeo copy docker://docker.io/sonarsource/sonar-scanner-cli:latest docker://registry.cn-hangzhou.aliyuncs.com/erlangai/sonar-scanner-cli:latest
