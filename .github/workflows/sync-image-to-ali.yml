@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/helllord/mermaid-live-editor:latest docker://registry.cn-hangzhou.aliyuncs.com/erlangai/mermaid-live-editor:latest
+        skopeo copy docker://docker.io/mathworks/matlab:r2025b docker://registry.cn-hangzhou.aliyuncs.com/erlangai/matlab:r2025b
