@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/arm32v7/debian:jessie docker://registry.cn-hangzhou.aliyuncs.com/erlangai/arm32v7:jessie
+        skopeo copy docker://docker.io/ollama/ollama:0.13.1-rc0 docker://registry.cn-hangzhou.aliyuncs.com/erlangai/ollama:0.13.1-rc0
