@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/pytorch/pytorch:2.8.0-cuda12.6-cudnn9-runtime docker://registry.cn-hangzhou.aliyuncs.com/erlangai/pytorch:2.8.0-cuda12.6-cudnn9-runtime
+        skopeo copy docker://docker.io/xiaotc/pytorch1.7:v1 docker://registry.cn-hangzhou.aliyuncs.com/erlangai/pytorch1.7:v1
