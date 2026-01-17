@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/xiaotc/pytorch1.7:v1 docker://registry.cn-hangzhou.aliyuncs.com/erlangai/pytorch1.7:v1
+        skopeo copy docker://docker.io/wrlin1218/mermaid-live-editor:20260108 docker://registry.cn-hangzhou.aliyuncs.com/erlangai/mermaid-live-editor:20260108
