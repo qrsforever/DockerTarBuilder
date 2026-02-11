@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/wrlin1218/mermaid-live-editor:20260108 docker://registry.cn-hangzhou.aliyuncs.com/erlangai/mermaid-live-editor:20260108
+        skopeo copy docker://docker.io/alpine/openclaw:main docker://registry.cn-hangzhou.aliyuncs.com/erlangai/openclaw:20260211
