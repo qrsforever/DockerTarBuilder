@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/alpine/openclaw:main docker://registry.cn-hangzhou.aliyuncs.com/erlangai/openclaw:20260211
+        skopeo copy docker://docker.io/ollama/ollama:0.17.1-rc0 docker://registry.cn-hangzhou.aliyuncs.com/erlangai/ollama:0.17.1-rc0
