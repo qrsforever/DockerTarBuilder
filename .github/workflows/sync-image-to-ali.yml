@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/traefik:3.6 docker://registry.cn-hangzhou.aliyuncs.com/erlangai/traefik:3.6
+        skopeo copy docker://docker.io/openpolicyagent/opa:1.14.1 docker://registry.cn-hangzhou.aliyuncs.com/erlangai/opa:1.14.1
