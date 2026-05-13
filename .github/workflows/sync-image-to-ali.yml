@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/jhj0517/whisper-webui:latest docker://registry.cn-hangzhou.aliyuncs.com/erlangai/whisper-webui:latest
+        skopeo copy docker://docker.io/linuxserver/faster-whisper:3.1.0-gpu docker://registry.cn-hangzhou.aliyuncs.com/erlangai/faster-whisper:3.1.0-gpu
