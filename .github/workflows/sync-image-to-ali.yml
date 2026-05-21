@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/linuxserver/faster-whisper:3.1.0-gpu docker://registry.cn-hangzhou.aliyuncs.com/erlangai/faster-whisper:3.1.0-gpu
+        skopeo copy docker://docker.io/xxxxrt666/gpt-sovits:latest-cu128 docker://registry.cn-hangzhou.aliyuncs.com/erlangai/gpt-sovits:latest-cu128
